@@ -1,0 +1,5 @@
+name = input("enter your name : ")
+value = input("what you want enter after and previous of your name : ")
+val = int(input("enter the number  : "))
+length =len(name)
+print(f"your name is {name.center(length+val,value)}")
